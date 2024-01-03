@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+     font-family:'Open Sans', sans-serif;
+    
+}
+
+
+
+.about{
+    background: url(./img/background\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about img{
+   width: 70%;
+   height: 300px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 180px;
+}
+.about .main-colam{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 50px;
+    
+}
+.about .write-colam{
+    width: 460px;
+}
+
+.about h2{
+    position: relative;
+    font-style: bold;
+    font-size: 27px;
+}
+
+.about p{
+    font-size: 15px;
+    margin-top: 35px;
+    color: black;
+
+}
+
+.about h2::after{
+    content: '';
+    background: url(./img/22222.png);
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    left: 0;
+    margin-top: 40px;
+}
+
+
+
+.top-text{
+    text-align: center;
+    margin: 50px;
+}
+
+   
+
+
+.top-photo{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    left: 0;
+  
+   
+}
+.photo-sec img{
+    width: 100%;
+   
+    
+}
+.photo{
+   
+    color: whitesmoke;
+}
+.photo img{
+    width: auto; 
+    margin-left: 25%;
+  
+}
+.photo-sec{
+    position: relative;
+}
+.photo{
+    position: absolute;
+    top: 35%;
+   left: 40%;
+   color: white;
+}
+
+.gallary .photo-sec{
+    position: relative;
+}
+.gallary p{
+    margin-left: 10px;
+}
+.gallary .photo-sec::after:hover{
+    background-color: #191d22;
+    color: black;
+}
+
+
+   
+
+.get h2{
+    color: white;
+    background-color: #173a69;
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.start{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color:#173a69 ;
+}
+.start h3{
+   
+    color: white;
+    margin-top: 50px;
+ padding-top: 100px;
+
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.t-futter{
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+
+
+
+.down i{
+    
+    background-color: #107e1a;
+    border-color: #972222;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
